@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    margin: 5rem 20rem;
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+
+main {
+    color: white;
+    border: 2px solid turquoise;
+    min-width: 18rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: turquoise
+}
+
+h3 {
+    color: lightgoldenrodyellow
+}
+
+a {
+    text-decoration: none;
+    color: turquoise;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1095px),
+screen and (min-height: 700px) {
+body {
+        margin: 5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+span {
+        display: block;
+    }
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
