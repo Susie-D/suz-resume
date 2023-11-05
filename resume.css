@@ -35,9 +35,9 @@ span {
 }
 
 @media screen and (max-width: 1095px),
-screen and (min-height: 700px) {
+screen and (max-height: 700px) {
 body {
-        margin: 5rem;
+        margin: 1rem;
     }
 }
 
